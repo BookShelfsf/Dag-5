@@ -8,8 +8,8 @@
         Animals sheep = AnimalFactory.CreateAnimal(enmAnimals.Sheep, "Får");
 
         // Kald MakeSound() metoden
-        dog.MakeSound();   // Output: Bob siger: Vov!
-        cat.MakeSound();   // Output: Kitty siger: Meow!
-        sheep.MakeSound(); // Output: Dolly siger: Baaaah!
+        dog.MakeSound();   // Output: Hund siger: Vov!
+        cat.MakeSound();   // Output: Kat siger: Meow!
+        sheep.MakeSound(); // Output: Får siger: Baaaah!
     }
 }
