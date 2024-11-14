@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 
-namespace Dag_5
+abstract class Animals
 {
-    internal class Sound
+    public string Navn { get; }
+
+    protected Animals(string navn)
     {
+        Navn = navn;
     }
+
+    public abstract void MakeSound();
 }
